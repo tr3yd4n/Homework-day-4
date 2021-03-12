@@ -48,19 +48,18 @@ and returns it removing all the digits.
 Ex.: onlyLetters("I have 4 dogs")  => returns "I have  dogs"
 */
 
-let str = "I have 4 dogs"
-function onlyLetters(str){
-    let listOnlyLetters = onlyLetters.split
+
+function onlyLetters(myString){
+    let listOnlyLetters = mySting.split(" ")
     return listOnlyLetters
+    }for (i )
 }
 
-// //INCOMPLETE 
-//  const onlyLetters = function(string){
-//   return console.log(string.replace(/\d+/g, `))
-// }
-// onlyLetters(123howdy123`)
+console.log(splitMe("Hello, I am the number 1"))
 
-console.log(onlyLetters())
+//INCOMPLETE create range checker to check if [] value is word. if so add to new array if not skip
+// then convert new array back into string without the digits
+
 
 /* Ex.6 
 Write a function called "isThisAnEmail" which receives a string as a parameter 
@@ -90,10 +89,7 @@ Write a function called "rollTheDices" which receives a number as a parameter.
 It should invoke the dice() function defined in Ex1 the specified amount of times,
 and return an object containing a "sum" property holding the sum of all values extracted
 and a "values" array containing the single values of the dicerolls themselves.
-Example: RollTheDices(3) => returns {
-    sum: 10
-    values: [3, 3, 4]
-}*/
+Example: RollTheDices(3) => returns {sum: 10 values: [3, 3, 4]}*/
 
 function dice(){
     let diceRoll = Math.random() * 5 + 1
