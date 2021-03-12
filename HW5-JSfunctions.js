@@ -48,28 +48,42 @@ and returns it removing all the digits.
 Ex.: onlyLetters("I have 4 dogs")  => returns "I have  dogs"
 */
 
-function onlyLetters(){ type of?
-    return non digits as new string
+let str = "I have 4 dogs"
+function onlyLetters(str){
+    let listOnlyLetters = onlyLetters.split
+    return listOnlyLetters
 }
+
+// //INCOMPLETE 
+//  const onlyLetters = function(string){
+//   return console.log(string.replace(/\d+/g, `))
+// }
+// onlyLetters(123howdy123`)
+
+console.log(onlyLetters())
 
 /* Ex.6 
 Write a function called "isThisAnEmail" which receives a string as a parameter 
 and returns true if the string is a valid email address.*/
 
 function isThisAnEmail(isEmail){
-    if (isEmail contains @ && .com){
+    if (isEmail.includes("@")) {
     return true
+    }else{
+    return false
     }
 }
+//console.log(isThisAnEmail("Iamanemailaddress"))
+//console.log(isThisAnEmail("emailaddress@email.com"))
 
 /* Ex.7
 Write a function called "whatDayIsIt" that should return the current day of the week.*/
 
 function whatDayIsIt(){
-    let days = ["Monday", ...]
-    return days []
-
+    return (new Date()).getDay()
 }
+const today = whatDayIsIt()
+console.log(today)
 
 /* Ex.8
 Write a function called "rollTheDices" which receives a number as a parameter.
@@ -87,26 +101,29 @@ function dice(){
     return diceRollRound
 }
 
+let rollResults = []
+
 function rollTheDie(num){
-    let rollResults = []
     let dieResult = dice()
     return rollResults.push(dieResult)
 }
 
 console.log(rollTheDie(100))
 
-
+//INCOMPLETE error with array? always get the answer 1???
 
 /* Ex.9
 Write a function called "howManyDays" which receives a date as a parameter 
 and should return the number of days passed since that date.*/
 
 function howManyDays(date){
-    let currentDate = 24
-    return currentDate - date
+    let currentDate = daysBetween
+    return (currentDate.getDay() - date)
 }
 
-date time class????????
+console.log(howManyDays(10))
+
+// INCOMPLETE DOES NOT WORK date time class????????
 
 /* Ex.10
 Write a function called "isTodayMyBirthday" which should return true if today's your birthday, 
@@ -117,8 +134,3 @@ const myBirthday = 30
 function isTodayMyBirthday(todaysDate){
     return (todaysDate === myBirthday)
 }
-
-//console.log(isTodayMyBirthday(30))
-// console.log(dice())
-// console.log(whoIsBigger(10000, 50))
-// console.log(whoIsBigger(20, 200) + " is bigger "
