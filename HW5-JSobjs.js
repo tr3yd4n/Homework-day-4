@@ -116,9 +116,9 @@ const movies = [
   },
 ]
 
-// Ex.11
-// Write a function called "deleteProp" which receives an object and a string as parameters, 
-// and returns the given object after deleting its property named as the given string.
+//Ex.11
+//Write a function called "deleteProp" which receives an object and a string as parameters, 
+//and returns the given object after deleting its property named as the given string.
 
 function deleteProp(obj, prop){
     delete obj[prop]
@@ -143,7 +143,7 @@ console.log(olderMovie())
 
 //Ex.13
 //Write a function called "countMovies" 
-// which returns the number of movies contained in the array provided at the end of this file.
+//which returns the number of movies contained in the array provided at the end of this file.
 
 function countMovies(){
     return movies.length
