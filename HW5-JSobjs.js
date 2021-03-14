@@ -245,13 +245,11 @@ console.log(searchAndDivide("Lord"))
 //and returns the movies array without the element in the given position.
 
 function removeIndex(number){
-    let result =[]
-    for(let i = 0; i < movies.length; i++){
-        if (number === i)
-            continue
-        
-        result.push(movies[i])
-    }
+  let result =[]
+  for(let i = 0; i < movies.length; i++){
+      if (number === i)
+          continue 
+          result.push(movies[i])
+  }return result
 }
-console.log(removeIndex(5)) 
-//answer shows as undefined? cross refernced from hw walkthrough so should be correct
+console.log(removeIndex(2))
